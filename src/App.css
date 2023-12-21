@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+#whole{
+    background-color: #BFBFBF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header{
+    height: 480px;
+    width: 100%; /*1272px*/
+    background-color: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#element1{
+    width: 100%;
+    height: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.element1_1{
+    width: 125px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+    background-color: transparent; /* 背景を透明にする */
+    border: none; /* ボーダーを削除する */
+    cursor: pointer;
+    border-bottom: 2px solid white;  /*下のline*/
 }
 
-.App-link {
-  color: #61dafb;
+#header_name{
+    font-size: 160px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#element1_2{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    /* padding: 20px;  ボタン内の空間を増やす */
 }
+
+.img1{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#clickButtonCount{
+    font-size: 40px;
+    font-family: 'Playfair Display', sans-serif;
+    color: white;
+}
+
+#icon{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#icon_pic{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#body{
+    width: 100%;
+    height: 100%;
+}
+
+.hogeElement{
+    height: 50px;
+}
+
+.hogeMiniElement{
+    height: 25px
+}
+
+.element_title{
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #333333;
+    text-align: center;
+}
+
+.element_maintext{
+    font-size: 20px;
+    font-family: 'Playfair Display', sans-serif;
+    color:#333333;
+    text-align: center;
+}
+
+
