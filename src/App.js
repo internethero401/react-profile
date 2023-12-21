@@ -6,7 +6,7 @@ const App = () => {
   const skillLst = [
     { skill: "PYTHON", lev: 30 },
     { skill: "REACT", lev: 15 },
-    { skill: "C", lev: 10 },
+    { skill: "C+", lev: 10 },
   ];
   let [state1, setstate1] = useState(true);
   const [state2, setstate2] = useState(0);
